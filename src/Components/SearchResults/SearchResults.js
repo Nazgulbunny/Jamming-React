@@ -4,11 +4,11 @@ import './SearchResults.css';
 
 class SearchResults extends Component{
 	render(){
+
          <div className="SearchResults">
 		  <h2>Results</h2>
 		  <!-- Add a TrackList component -->
-		  <div className ="TrackList">
-		  </div>
+		  <TrackList tracks = {this.props.searchResults}/>
 		</div>
 	}
 }
