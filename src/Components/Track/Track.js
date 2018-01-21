@@ -3,6 +3,12 @@ import './Track.css';
 
 
 class Track extends Component{
+    super(props);
+    this.addTrack = this.addTrack.bind(this);
+    addTrack() {
+	  this.props.onAdd(this.props.track)
+	}
+
 	render(){
           <div className="Track">
 			 <div className="Track-information">
