@@ -52,7 +52,7 @@ const Spotify = {
     },
 
     
-    savePlaylist(name, trackURIs) {
+    savePlaylist(name, trackURIs) {trackURIs
       return fetch(`${spotifyUserProfileAPI}`,
           {headers: this.buildAuthorizationHeader()})
           .then(response => response.json())
