@@ -1,6 +1,7 @@
 import React from 'react';
-import '../TrackList/TrackList.js';
+import TrackList from '../TrackList/TrackList.js';
 import './PlayList.css';
+import Track from '../Track/Track.js';
 
 class Playlist extends React.Component {
 
